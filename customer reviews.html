@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>customer reviews</title>
+        <link rel="stylesheet" href="customer reviews.css">
+		<link rel="stylesheet" href="CSS.css">
+		
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+		
+		<nav class="navbar">
+            <div class="inner-width">
+              <a href="Home.html" class="logo"><img src="PM.jpeg" alt=""></a>
+              <div class="navbar-menu">
+                <a href="Home.html" class="active"> Home </a> 
+             <a href="about us.html" > about us </a>
+              <a href="customer reviews.html">Customer reviews</a>
+             <a href="Your Opinions.html">Your Opinions</a>
+             <a href="Basket.php" class="h-icons"><i class='bx bxs-cart'></i></a>  
+		<a href="login.php" class="h-icons"><i class='bx bx-user'></i></a>
+           </div>
+              </div>
+            </div>
+          </nav>
+	
+    </head>
+	
+
+
+<br><br><br>
+ 
+
+<br><br><br>
+<br><br><br>
+ 
+<br><br><br>
+<br><br><br>
+<br><br><br>
+    <body>
+        <div class="container">
+        <div class="post">
+            <div class="text">Thanks for rating us!</div>
+            <div class="edit">EDIT</div>
+        </div>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fa fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fa fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fa fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fa fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fa fa-star"></label>
+                <form action="#">
+                    <header></header>
+                    <div class="textarea">
+                        <textarea cols="30" placeholder="Describe your experiece..."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            const btn = document.querySelector("button");
+            const post = document.querySelector(".post");
+            const widget = document.querySelector(".star-widget");
+            const editBtn = document.querySelector(".edit");
+            btn.onclick = ()=>{
+                widget.style.display = "none";
+                post.style.display = "block";
+                editBtn.onclick = ()=>{
+                  widget.style.display = "block";
+                  post.style.display = "none";
+                }
+                return false;
+            }
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<br><br><br>
+<br><br><br>
+ 
+ 
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+ 
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TAYA CAKE</title>
+  <link rel="stylesheet" href="CSS.css">
+ <style type="text/css">
+ 
+ #slider {
+ overflow: hidden;
+ }
+ #slider figure {
+ position: relative;
+ width: 500%;
+ margin: 0;
+ left: 0;
+ animation: 20s slider infinite;
+ }
+ 
+ #slider figure .zx {
+ float: left;
+ width:20%;
+ object-fit:contain;
+ 
+ 
+ }
+ .zx{
+
+    width: 50px;
+    height: 300px;
+ }
+ 
+ @keyframes slider {
+ 0% {
+      left: 0;
+    }
+    20% {
+    left: 0;
+    }
+    25% {
+    left: -100%;
+    }
+    45% {
+    left: -100%;
+    } 
+    50% {
+    left: -200%;
+    }
+    70% {
+    left: -200%;
+    }
+    75% {
+    left: -300%; 
+    }
+    95% {
+    left:-300%;
+    }
+    100% {
+      left:-400%;
+    }
+ 
+ }
+
+ 
+ </style>
+ </head>
+ <body>
+ 
+<footer>
+ <div id="slider">
+  <figure>
+    <img class="zx" src ="1.1.jpeg" >
+    <img class="zx" src="1.2.jpeg" >
+   <img class="zx"src="1.3.jpeg">
+   <img class="zx"src="1.4.jpeg">
+   <img class="zx"src="1.5.jpeg">
+   
+
+  </figure>
+ </div>
+<br><br><br>
+</footer>
+
+ </body>
+ </html>

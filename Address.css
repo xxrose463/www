@@ -1,0 +1,51 @@
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: .2rem;
+}
+.note{
+  font-family: "Gill Sans", sans-serif;
+}
+form .option-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height:45px;
+  width: 106%;
+  cursor: pointer;
+  line-height: 3;
+  outline-color: #bd8230;
+}
+.box form .user-details {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(220% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline-color: #bd8230;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-right: 15px;
+    font-size: 15px;   
+}
+form .button1{
+  height: 45px;
+  margin: 10px;
+  width: 30%;
+  background-image: linear-gradient(to right, #c6ca56, #c6b848, #c5a63d, #c29435, #bd8230);;
+  border-radius: 50px;
+}
